@@ -1,0 +1,73 @@
+/****************************
+Global
+****************************/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", serif; 
+  background-color: white;
+}
+
+/****************************
+Typography and Colours
+****************************/
+
+h1 {
+  color: #666;
+}
+
+h2 {
+  margin: 0.375em 0;
+  color: #999;
+}
+
+h4 {
+  color: #aaa;
+}
+
+p {
+  color: darkslategray; 
+}
+
+hr {
+  border-top: 4px solid #069; 
+}
+
+/****************************
+Structure
+****************************/
+
+#main-header {
+  margin: 0.625em 0;
+}
+
+.profile {
+  text-align: right; 
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+}
+
+/****************************
+Media Queries
+****************************/
+
+@media all and (max-width: 768px) {
+  .profile {
+    text-align: center; 
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+  #main-image {
+    text-align: center;
+  }
+}
+
